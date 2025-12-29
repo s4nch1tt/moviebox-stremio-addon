@@ -18,42 +18,42 @@ Search, discover, download, and stream movies & TV series with subtitles
 
 
 
-## 📋 Table of Contents
+##  Table of Contents
 
-- [✨ Features](#-features)
-- [📦 Installation](#-installation)
+- [Features](#-features)
+- [Installation](#-installation)
   - [For Users (CLI)](#for-users-cli)
   - [For Developers](#for-developers)
   - [Media Player (Optional)](#media-players-optional-for-streaming)
   - [Termux Support](#termux-support)
-- [🚀 Quick Start](#-quick-start)
+- [Quick Start](#-quick-start)
   - [Interactive Menu (Easiest)](#interactive-menu-easiest)
   - [Command Line](#command-line-examples)
   - [Python API](#python-api-example)
-- [📖 Usage](#-usage)
-  - [🖥️ Command Line Interface](#️-command-line-interface)
-  - [🐍 Python API](#-python-api)
-- [📚 Documentation](#-documentation)
-- [⚙️ Advanced Configuration](#️-advanced-configuration)
-- [⚠️ Disclaimer](#️-disclaimer)
+- [Usage](#-usage)
+  - [Command Line Interface](#-command-line-interface)
+  - [Python API](#-python-api)
+- [Documentation](#-documentation)
+- [Advanced Configuration](#-advanced-configuration)
+- [Disclaimer](#-disclaimer)
 
 
 
-## ✨ Features
+## Features
 
-- 🎬 **Download Movies & TV Series** - High-quality downloads with multiple resolution options
-- 📝 **Subtitle Support** - Download subtitles in multiple languages
-- 🎥 **Stream with MPV or VLC** - Watch directly without downloading (CLI only)
-- ⚡ **Super Fast Downloads** - Over 5x faster than standard downloads
-- 🔄 **Async & Sync Support** - Fully asynchronous with synchronous fallback
-- 🎯 **Interactive Menu** - User-friendly TUI for easy navigation
-- 🔍 **Search & Discovery** - Find movies, trending content, and popular searches
-- 🛠️ **Developer-Friendly** - Clean Python API with Pydantic models 
-
-
+-  **Download Movies & TV Series** - High-quality downloads with multiple resolution options
+-  **Subtitle Support** - Download subtitles in multiple languages
+-  **Stream with MPV or VLC** - Watch directly without downloading (CLI only)
+-  **Super Fast Downloads** - Over 5x faster than standard downloads
+-  **Async & Sync Support** - Fully asynchronous with synchronous fallback
+-  **Interactive Menu** - User-friendly TUI for easy navigation
+-  **Search & Discovery** - Find movies, trending content, and popular searches
+-  **Developer-Friendly** - Clean Python API with Pydantic models 
 
 
-## 📦 Installation
+
+
+## Installation
 
 ### For Users (CLI)
 
@@ -119,7 +119,7 @@ pip install rich click bs4 httpx throttlebuster
 
 
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Interactive Menu (Easiest)
 
@@ -136,11 +136,11 @@ moviebox interactive
 ```
 
 The interactive menu provides:
-- 🎬 Download Movies
-- 📺 Download TV Series  
-- 🎥 Stream Movies with MPV/VLC
-- 📡 Stream TV Series with MPV/VLC
-- 🔍 Discover & Search Content
+-  Download Movies
+-  Download TV Series  
+-  Stream Movies with MPV/VLC
+-  Stream TV Series with MPV/VLC
+-  Discover & Search Content
 
 ### Command Line Examples
 
@@ -177,9 +177,9 @@ asyncio.run(main())
 
 
 
-## 📖 Usage
+##  Usage
 
-## 🖥️ Command Line Interface
+##  Command Line Interface
 
 ### Available Commands
 
@@ -547,16 +547,16 @@ moviebox download-series "Breaking Bad" -s 1 -e 1 --stream-via vlc --quality 108
 </details>
 
 **Streaming Features:**
-- ✅ No download required - watch immediately
-- ✅ Automatic subtitle integration
-- ✅ Proper HTTP header handling
-- ✅ Auto-cleanup of temporary files
-- ⚠️ Requires `moviebox-api[cli]` installation
-- ⚠️ Requires MPV/VLC media player installed
+-  No download required - watch immediately
+-  Automatic subtitle integration
+-  Proper HTTP header handling
+-  Auto-cleanup of temporary files
+-  Requires `moviebox-api[cli]` installation
+-  Requires MPV/VLC media player installed
 
 
 
-## 🐍 Python API
+##  Python API
 
 ### Simple Auto-Download
 
@@ -667,7 +667,7 @@ async def main():
 asyncio.run(main())
 ```
 
-## 📚 Documentation
+##  Documentation
 
 For comprehensive documentation with more examples:
 
@@ -678,7 +678,7 @@ For comprehensive documentation with more examples:
   - [Extractor Benchmark](./docs/examples/extractors-benchmark.py)
 
 
-## ⚙️ Advanced Configuration
+##  Advanced Configuration
 
 ### Using Mirror Hosts
 
@@ -756,15 +756,13 @@ $ moviebox download-series Merlin -s 1 -e 1 --auto-mode --format struct
 This layout mirrors the TV series' episode order, making it easy to navigate and find specific episodes.
 
 
-## ⚠️ Disclaimer
+##  Disclaimer
 
 > "All videos and pictures on MovieBox are from the Internet, and their copyrights belong to the original creators. We only provide webpage services and do not store, record, or upload any content."  
 > — *moviebox.ph (Sunday, July 13th, 2025)*
 
-This is an unofficial API wrapper. Use responsibly and respect copyright laws in your jurisdiction.
 
-
-## 👥 Contributors
+##  Contributors
 
 We appreciate all contributions to this project! Thank you to everyone who has helped improve moviebox-api.
 
@@ -776,24 +774,9 @@ We appreciate all contributions to this project! Thank you to everyone who has h
 
 </div>
 
-### How to Contribute
-
-Contributions are welcome! Here's how you can help:
-
-1. 🐛 **Report Bugs** - Open an issue describing the bug
-2. 💡 **Suggest Features** - Share your ideas for improvements
-3. 🔧 **Submit Pull Requests** - Fix bugs or add new features
-4. 📖 **Improve Documentation** - Help make the docs better
-5. ⭐ **Star the Project** - Show your support!
-
-Please read our contribution guidelines before submitting a PR.
-
----
 
 <div align="center">
 
 **Made with ❤️**
-
-[Report Bug](https://github.com/Simatwa/moviebox-api/issues) • [Request Feature](https://github.com/Simatwa/moviebox-api/issues) • [⭐ Star on GitHub](https://github.com/Simatwa/moviebox-api)
 
 </div>
